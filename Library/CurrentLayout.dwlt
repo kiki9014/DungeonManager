@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 392}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 392}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 506, y: 342}
-  m_MaxSize: {x: 12006, y: 8042}
+  m_MinSize: {x: 508, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 3689
+  controlID: 9
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 947
-  m_MinSize: {x: 404, y: 342}
-  m_MaxSize: {x: 8004, y: 8042}
+  m_MinSize: {x: 406, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 3828
+  controlID: 49
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 573
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 3829
+  controlID: 50
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -228,14 +228,14 @@ MonoBehaviour:
     y: 573
     width: 1531
     height: 374
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -298,7 +298,7 @@ MonoBehaviour:
       Label: 
     localRoot:
       Label: 
-    mode: 1
+    mode: 0
     newBranchName: 
     scroll: {x: 0, y: 0}
     selectedNode:
@@ -2837,339 +2837,9 @@ MonoBehaviour:
         OriginalPath: 
         Status: 1
         Staged: 0
-      - Path: Temp\TarGZ\archtemp.tar
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\TarGZ\archtemp.tar
-        ProjectPath: Temp\TarGZ\archtemp.tar
-        OriginalPath: 
-        Status: 1
-        Staged: 0
       - Path: Temp\UnityLockfile
         FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityLockfile
         ProjectPath: Temp\UnityLockfile
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-00dfcc2375e1024418683ff19d18ada2
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-00dfcc2375e1024418683ff19d18ada2
-        ProjectPath: Temp\UnityTempFile-00dfcc2375e1024418683ff19d18ada2
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-079bc22c963ac234692505e6d453c3a4
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-079bc22c963ac234692505e6d453c3a4
-        ProjectPath: Temp\UnityTempFile-079bc22c963ac234692505e6d453c3a4
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-0c34633a8eff1b1489f5997342851b12
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-0c34633a8eff1b1489f5997342851b12
-        ProjectPath: Temp\UnityTempFile-0c34633a8eff1b1489f5997342851b12
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-0f47d7d5fb68fb545af16fc50079391a
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-0f47d7d5fb68fb545af16fc50079391a
-        ProjectPath: Temp\UnityTempFile-0f47d7d5fb68fb545af16fc50079391a
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-1521eb288be43344bbaab8026aa77930
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-1521eb288be43344bbaab8026aa77930
-        ProjectPath: Temp\UnityTempFile-1521eb288be43344bbaab8026aa77930
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-29e3a87b3d6b38e4e8a7c98284147094
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-29e3a87b3d6b38e4e8a7c98284147094
-        ProjectPath: Temp\UnityTempFile-29e3a87b3d6b38e4e8a7c98284147094
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-2f99224e0be6b6d408796d4531643999
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-2f99224e0be6b6d408796d4531643999
-        ProjectPath: Temp\UnityTempFile-2f99224e0be6b6d408796d4531643999
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-33bb29430b5259146ae7c026b8e28fa1
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-33bb29430b5259146ae7c026b8e28fa1
-        ProjectPath: Temp\UnityTempFile-33bb29430b5259146ae7c026b8e28fa1
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-361ede6e7c78dee44b7be63ae17b2be4
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-361ede6e7c78dee44b7be63ae17b2be4
-        ProjectPath: Temp\UnityTempFile-361ede6e7c78dee44b7be63ae17b2be4
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-3b9480856a523df41870bfe685eeb4b5
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-3b9480856a523df41870bfe685eeb4b5
-        ProjectPath: Temp\UnityTempFile-3b9480856a523df41870bfe685eeb4b5
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-40c94ccfc5d00a14599c3d811a510e63
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-40c94ccfc5d00a14599c3d811a510e63
-        ProjectPath: Temp\UnityTempFile-40c94ccfc5d00a14599c3d811a510e63
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-45c9beb5ccc9f194693d36d6956f0baf
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-45c9beb5ccc9f194693d36d6956f0baf
-        ProjectPath: Temp\UnityTempFile-45c9beb5ccc9f194693d36d6956f0baf
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-463ac85d7dfd4f1428a11c111f9cdbbf
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-463ac85d7dfd4f1428a11c111f9cdbbf
-        ProjectPath: Temp\UnityTempFile-463ac85d7dfd4f1428a11c111f9cdbbf
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-4a21209dafba729459d2b93f84141448
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-4a21209dafba729459d2b93f84141448
-        ProjectPath: Temp\UnityTempFile-4a21209dafba729459d2b93f84141448
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-4ba28c4d66aac18408e7af7cda8d322e
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-4ba28c4d66aac18408e7af7cda8d322e
-        ProjectPath: Temp\UnityTempFile-4ba28c4d66aac18408e7af7cda8d322e
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-4c0cc0a586648bc4f8c1e065823f7d25
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-4c0cc0a586648bc4f8c1e065823f7d25
-        ProjectPath: Temp\UnityTempFile-4c0cc0a586648bc4f8c1e065823f7d25
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-543801281642f094f8dbb58c652abfb0
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-543801281642f094f8dbb58c652abfb0
-        ProjectPath: Temp\UnityTempFile-543801281642f094f8dbb58c652abfb0
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-544b3a8be0b58a045b3ae2f8e9abb1e3
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-544b3a8be0b58a045b3ae2f8e9abb1e3
-        ProjectPath: Temp\UnityTempFile-544b3a8be0b58a045b3ae2f8e9abb1e3
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-5600b55494234194db02fc2c31cc8035
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-5600b55494234194db02fc2c31cc8035
-        ProjectPath: Temp\UnityTempFile-5600b55494234194db02fc2c31cc8035
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-5a9813e503866774a8aad6308fc89491
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-5a9813e503866774a8aad6308fc89491
-        ProjectPath: Temp\UnityTempFile-5a9813e503866774a8aad6308fc89491
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-5de7821be7ead644f8234695d246356f
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-5de7821be7ead644f8234695d246356f
-        ProjectPath: Temp\UnityTempFile-5de7821be7ead644f8234695d246356f
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-6140b12b9e02d7046b514cedde236417
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-6140b12b9e02d7046b514cedde236417
-        ProjectPath: Temp\UnityTempFile-6140b12b9e02d7046b514cedde236417
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-638c3ee8ca2d24b4894a580a6bbd4b76
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-638c3ee8ca2d24b4894a580a6bbd4b76
-        ProjectPath: Temp\UnityTempFile-638c3ee8ca2d24b4894a580a6bbd4b76
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-677e7572f0deb6c44b411d83d3d63424
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-677e7572f0deb6c44b411d83d3d63424
-        ProjectPath: Temp\UnityTempFile-677e7572f0deb6c44b411d83d3d63424
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-689211de1405cc045a38b9bd0de3a743
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-689211de1405cc045a38b9bd0de3a743
-        ProjectPath: Temp\UnityTempFile-689211de1405cc045a38b9bd0de3a743
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-6efe41f71af56ca4da67e0d94f803771
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-6efe41f71af56ca4da67e0d94f803771
-        ProjectPath: Temp\UnityTempFile-6efe41f71af56ca4da67e0d94f803771
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-7278db10df3292541a8533fbd5d998b5
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-7278db10df3292541a8533fbd5d998b5
-        ProjectPath: Temp\UnityTempFile-7278db10df3292541a8533fbd5d998b5
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-754e10bb8f89a7e48a6997ca3bd1a10e
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-754e10bb8f89a7e48a6997ca3bd1a10e
-        ProjectPath: Temp\UnityTempFile-754e10bb8f89a7e48a6997ca3bd1a10e
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-75cc2b1b6bfc43b438c8de87750c17bd
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-75cc2b1b6bfc43b438c8de87750c17bd
-        ProjectPath: Temp\UnityTempFile-75cc2b1b6bfc43b438c8de87750c17bd
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-77da585e5688aae4e8de3e5f0e38eeaa
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-77da585e5688aae4e8de3e5f0e38eeaa
-        ProjectPath: Temp\UnityTempFile-77da585e5688aae4e8de3e5f0e38eeaa
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-7a02ea7f7dbfdff499b7a714a469566c
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-7a02ea7f7dbfdff499b7a714a469566c
-        ProjectPath: Temp\UnityTempFile-7a02ea7f7dbfdff499b7a714a469566c
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-7b55d937fe6bf844cb446c7a12da511e
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-7b55d937fe6bf844cb446c7a12da511e
-        ProjectPath: Temp\UnityTempFile-7b55d937fe6bf844cb446c7a12da511e
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-851a01da97838bb48b6e9654e1fcafa8
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-851a01da97838bb48b6e9654e1fcafa8
-        ProjectPath: Temp\UnityTempFile-851a01da97838bb48b6e9654e1fcafa8
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-8d106fffefdc9e042ad96578ed78acad
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-8d106fffefdc9e042ad96578ed78acad
-        ProjectPath: Temp\UnityTempFile-8d106fffefdc9e042ad96578ed78acad
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-906affef82c79ea41807f0cd2e910aa6
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-906affef82c79ea41807f0cd2e910aa6
-        ProjectPath: Temp\UnityTempFile-906affef82c79ea41807f0cd2e910aa6
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-938d7548941414248be368c0d65c4f9b
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-938d7548941414248be368c0d65c4f9b
-        ProjectPath: Temp\UnityTempFile-938d7548941414248be368c0d65c4f9b
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-986a81098bb32b64187234cf2e4aa074
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-986a81098bb32b64187234cf2e4aa074
-        ProjectPath: Temp\UnityTempFile-986a81098bb32b64187234cf2e4aa074
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-9c2adaf90102ebd4fa22983972eb6659
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-9c2adaf90102ebd4fa22983972eb6659
-        ProjectPath: Temp\UnityTempFile-9c2adaf90102ebd4fa22983972eb6659
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-a67123ff33278bb43beacff916f7551c
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-a67123ff33278bb43beacff916f7551c
-        ProjectPath: Temp\UnityTempFile-a67123ff33278bb43beacff916f7551c
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-b0df949cce0636149a6c30bf5e1e9c2b
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-b0df949cce0636149a6c30bf5e1e9c2b
-        ProjectPath: Temp\UnityTempFile-b0df949cce0636149a6c30bf5e1e9c2b
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-b424ccf64d427fd46ad33acaa8f59367
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-b424ccf64d427fd46ad33acaa8f59367
-        ProjectPath: Temp\UnityTempFile-b424ccf64d427fd46ad33acaa8f59367
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-b682328e8d929d74394cdae8c65af8d2
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-b682328e8d929d74394cdae8c65af8d2
-        ProjectPath: Temp\UnityTempFile-b682328e8d929d74394cdae8c65af8d2
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-b810b34ac78994f43ba3dd433f9997ef
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-b810b34ac78994f43ba3dd433f9997ef
-        ProjectPath: Temp\UnityTempFile-b810b34ac78994f43ba3dd433f9997ef
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-b9e615ce06b953d40b0f5f732c707ae7
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-b9e615ce06b953d40b0f5f732c707ae7
-        ProjectPath: Temp\UnityTempFile-b9e615ce06b953d40b0f5f732c707ae7
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-b9efe12741fca2b45aa1eae4eca8519d
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-b9efe12741fca2b45aa1eae4eca8519d
-        ProjectPath: Temp\UnityTempFile-b9efe12741fca2b45aa1eae4eca8519d
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-c64af836b96b3334e9f429143d1cc277
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-c64af836b96b3334e9f429143d1cc277
-        ProjectPath: Temp\UnityTempFile-c64af836b96b3334e9f429143d1cc277
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-c729d33a84c4bed43bb89b4b819e7951
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-c729d33a84c4bed43bb89b4b819e7951
-        ProjectPath: Temp\UnityTempFile-c729d33a84c4bed43bb89b4b819e7951
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-cb9e21087e7a1614f95f6ffd0874409f
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-cb9e21087e7a1614f95f6ffd0874409f
-        ProjectPath: Temp\UnityTempFile-cb9e21087e7a1614f95f6ffd0874409f
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-d3403234ec828a84b84e49521893f57e
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-d3403234ec828a84b84e49521893f57e
-        ProjectPath: Temp\UnityTempFile-d3403234ec828a84b84e49521893f57e
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-d3fe8d3849643b14eaaa7c7bfbb5f64a
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-d3fe8d3849643b14eaaa7c7bfbb5f64a
-        ProjectPath: Temp\UnityTempFile-d3fe8d3849643b14eaaa7c7bfbb5f64a
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-e9792b4e3fee70749b8d4838a87045dc
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-e9792b4e3fee70749b8d4838a87045dc
-        ProjectPath: Temp\UnityTempFile-e9792b4e3fee70749b8d4838a87045dc
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-edaa95b9f0b44f048b80a8b493ce48f8
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-edaa95b9f0b44f048b80a8b493ce48f8
-        ProjectPath: Temp\UnityTempFile-edaa95b9f0b44f048b80a8b493ce48f8
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-f10fdb58449013a49aeb7612f0f78b39
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-f10fdb58449013a49aeb7612f0f78b39
-        ProjectPath: Temp\UnityTempFile-f10fdb58449013a49aeb7612f0f78b39
-        OriginalPath: 
-        Status: 1
-        Staged: 0
-      - Path: Temp\UnityTempFile-f6f577ccf02613340a6d25a3e76be55e
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\UnityTempFile-f6f577ccf02613340a6d25a3e76be55e
-        ProjectPath: Temp\UnityTempFile-f6f577ccf02613340a6d25a3e76be55e
         OriginalPath: 
         Status: 1
         Staged: 0
@@ -3185,9 +2855,21 @@ MonoBehaviour:
         OriginalPath: 
         Status: 1
         Staged: 0
-      - Path: Temp\__Backupscenes\0.backup
-        FullPath: C:\UnityWorkspace\DungeonManager\Temp\__Backupscenes\0.backup
-        ProjectPath: Temp\__Backupscenes\0.backup
+      - Path: Library\LastSceneManagerSetup.txt
+        FullPath: C:\UnityWorkspace\DungeonManager\Library\LastSceneManagerSetup.txt
+        ProjectPath: Library\LastSceneManagerSetup.txt
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library\ProjectSettings.asset
+        FullPath: C:\UnityWorkspace\DungeonManager\Library\ProjectSettings.asset
+        ProjectPath: Library\ProjectSettings.asset
+        OriginalPath: 
+        Status: 1
+        Staged: 0
+      - Path: Library\expandedItems
+        FullPath: C:\UnityWorkspace\DungeonManager\Library\expandedItems
+        ProjectPath: Library\expandedItems
         OriginalPath: 
         Status: 1
         Staged: 0
@@ -3616,62 +3298,9 @@ MonoBehaviour:
       - All: 1
       - All: 1
       - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
-      - All: 1
+      - All: 0
+      - All: 0
+      - All: 0
       foldedTreeEntries:
       - Assets\Plugins
       - .vs
@@ -3835,9 +3464,9 @@ MonoBehaviour:
     height: 552
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0a320000
-    m_LastClickedID: 0
-    m_ExpandedIDs: 4eaafcff60fbffff6afbffff00000000
+    m_SelectedIDs: 00270000
+    m_LastClickedID: 9984
+    m_ExpandedIDs: 1afcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3998,19 +3627,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Resources/ObjectToPlace
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Resources/ObjectToPlace
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\UnityWorkspace\DungeonManager
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 32260000
-    m_LastClickedID: 9778
-    m_ExpandedIDs: 322600000832000014320000163200001a32000000ca9a3bffffff7f
+    m_SelectedIDs: d6260000
+    m_LastClickedID: 9942
+    m_ExpandedIDs: 000000008826000090260000b8260000c2260000c626000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4038,7 +3667,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 32260000ffffff7f
+    m_ExpandedIDs: 000000008826000090260000be260000c2260000c6260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4063,9 +3692,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 0a320000
-    m_LastClickedInstanceID: 12810
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
