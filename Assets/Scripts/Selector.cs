@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Selector : MonoBehaviour {
+    public GameObject mapManager;
+
+    MapManage mapmanager;
 
 	// Use this for initialization
 	void Start () {
-		
+        mapmanager = mapManager.GetComponent("MapManage") as MapManage;
 	}
 
-    public GameObject PlaceTile (GameObject obj)
+    public void PlaceTile (GameObject obj)
     {
         float height = 0;
         switch (obj.tag)
@@ -29,7 +32,7 @@ public class Selector : MonoBehaviour {
         Vector3 currPose = Vector3.ProjectOnPlane(transform.position, new Vector3(0, 0, 1.0f));
         currPose = currPose - new Vector3(0, 0, height);
 
-        return Instantiate(obj, currPose, transform.rotation);
+        mapmanager.PlaceTile(currPose, transform.rotation, obj);
     }
 	
 	// Update is called once per frame
