@@ -39,9 +39,19 @@ public class MapManage : MonoBehaviour {
         if (map.ContainsKey(coord) && map[coord].name.StartsWith("Start") && key != "Floor")
             return;
 
+        if (grid[key].ContainsKey(coord) && obj.name.StartsWith(grid[key][coord].name))
+        {
+            Debug.Log("LevelUp");
+            var objScript = grid[key][coord].GetComponent("Level") as Level;
+
+            objScript.LevelUp();
+            return;
+        }
+
         RemoveTile(position, obj.tag);
         var newObj = Instantiate(obj, position, rotation);
         newObj.name = newObj.name.Split('(')[0];
+        newObj.AddComponent<Level>();
         grid[key].Add(coord, newObj);
         RemoveDuplicated(newObj.name, newObj.tag);
 
