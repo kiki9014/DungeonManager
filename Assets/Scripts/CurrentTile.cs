@@ -22,17 +22,15 @@ public class CurrentTile : MonoBehaviour
     // Use this for initialization
     void Start () {
         var all_prefab = Resources.LoadAll("ObjectToPlace", typeof(GameObject)).Cast<GameObject>();
-        Debug.Log(all_prefab.Count());
 
         var normal_tiles = all_prefab.Where(g => g.tag == "Floor").ToList();
-        Debug.Log(normal_tiles.Count);
         object_list.AddRange(normal_tiles);
         var monsters = all_prefab.Where(g => g.tag == "Monster").ToList();
-        Debug.Log(monsters.Count);
         object_list.AddRange(monsters);
         var traps = all_prefab.Where(g => g.tag == "Trap").ToList();
-        Debug.Log(traps.Count);
         object_list.AddRange(traps);
+        var delete = all_prefab.Where(g => g.name.StartsWith("Delete")).ToList();
+        object_list.AddRange(delete);
 
         cursor = GameObject.Find("SelectSquare") as GameObject;
         cursor_script = cursor.GetComponent(typeof(Selector)) as Selector;
@@ -46,7 +44,7 @@ public class CurrentTile : MonoBehaviour
         GameObject obj = object_list[state];
         if (current_tile != null)
             Destroy(current_tile);
-        current_tile = Instantiate(obj, transform);
+        current_tile = Instantiate(obj, transform.position - new Vector3(0,0,0.1f), transform.rotation, transform);
     }
 	
 	// Update is called once per frame

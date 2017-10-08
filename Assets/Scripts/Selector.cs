@@ -18,7 +18,7 @@ public class Selector : MonoBehaviour {
         switch (obj.tag)
         {
             case "Floor":
-                height = 0.1f;
+                height = 0.2f;
                 break;
             case "Monster":
                 height = 0.4f;

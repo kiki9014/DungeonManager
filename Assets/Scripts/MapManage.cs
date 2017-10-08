@@ -27,6 +27,13 @@ public class MapManage : MonoBehaviour {
     public void PlaceTile(Vector3 position, Quaternion rotation,GameObject obj)
     {
         Vector2 coord = new Vector2(Mathf.Round(position.x*10), Mathf.Round(position.y*10));
+        if (obj.name.StartsWith("Delete"))
+        {
+            RemoveTile(position, "Floor");
+            RemoveTile(position, "Monster");
+            RemoveTile(position, "Trap");
+            return;
+        }
         string key = obj.tag;
 
         if (map.ContainsKey(coord) && map[coord].name.StartsWith("Start") && key != "Floor")
